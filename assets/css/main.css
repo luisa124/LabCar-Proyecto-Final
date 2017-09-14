@@ -32,7 +32,7 @@
     display: block;
     top: 20px;
     color: black;
-    width: 300px;
+    width: 100px;
 }
 
 /* la sesion del celular y texto */
@@ -40,6 +40,7 @@
 .caja {
     margin-top: 0%;
     background-color: #FFBC0C;
+    color: #fff;
     height: 700px;
     width: 100%;
 }
@@ -63,22 +64,68 @@
      padding: 0px;
      height: 500px;
 }
+.myContainer .fondo-oscuro {
+    color: #FFF;
+    background-color: rgba(32,23,3,0.72);
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 200px;
+    width: 100%;
+}
+
 
 /* inicio de fonciones de mapa */
+.mapa {
+    background-color: #FFBC0C;
+    height: 700px;
+    width: 100%;
+}
 .container h3 {
      margin: 15px auto;
      margin-left: 45%;
      font-size: 20px;
  }
- #map {
-     background-repeat: no-repeat;
-     margin-left: 0%;
-     margin-top: 5%;
-     width: 100%;
-     height: 500px;
-     border: 2px solid black;
+.mapaInput {
+    color: #fff;
+    height: 500px;
+    width: 50%;
+    margin-top: 30px;
 }
-     
+.color {
+    border-radius: 50px;
+    margin-top: 0%;
+}
+.colores {
+    margin-top: 15%;
+    border-radius: 30px;
+}
+input {
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+}
+.color1 {
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-top: 10%;
+}
+.colores1 {
+    margin-left: 0px;
+    margin-top: 10%;
+}
+  
+
+#map {
+     background-repeat: no-repeat;
+     margin-left: 40%;
+     margin-top: 5%;
+     width: 40%;
+     height: 460px;
+     border: 2px solid #FFF;
+ } 
+
  button {
      margin: 15px auto;
      padding: 10px 15px;
@@ -95,3 +142,20 @@
  button:hover,button:focus {
      outline: 0;
  }
+
+
+
+/*--------------------mi footer---------------------*/
+/*---------- parrafos de mi footer--------*/
+.linia {
+    width: 900px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.footer {
+    background-color: darkgray;
+    height: 400px;
+    width: 100%;
+}
+
+

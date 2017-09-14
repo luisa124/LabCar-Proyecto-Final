@@ -46,10 +46,12 @@
                         <p>O bien</p>
                     </div>
                     <div class="col-xs-12 col-md-1 col-md-offset-1">
-                        <input type="text" placeholder="hola"><hr class="linia1">
+                         <form class="w3-container">
+                          <input class="w3-input" type="text">
+                        </form>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-offset-1">
-                        <button type="button" class="btn btn-default">Default</button> 
+                        <button type="button" class="btn btn-default">Conviértete en un conductor</button> 
                     </div>
                 </div>
             </div>
@@ -71,21 +73,101 @@
                 </div>
             </div>
         </div>
-        <div>
+    <!-- inicio de codigo imagen de taxi -->
+       <section>
+           <div class="myContainer">
+               <div class="row">
+                   <div class="col-xs-12 col-md-3 col-md-offset-9">
+                      <div class="fondo-oscuro">
+                          <h3>Conduce cuando quieras</h3>
+                          <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+                          <button type="button" class="btn btn-warning">Warning</button>
+                      </div>
+                   </div>
+               </div>
+           </div>
+       </section>   
+        
+    <!-- inicio de section de inputs y mapa-->    
+        <div class="mapa">
             <section>
                 <div class="row">
-                    <div class="col-xs-12 col-md-1">
-                        <button id="encuentrame" class="text-center">Encuentrame</button>
-                    </div>
+                    <div class="mapaInput">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-4 col-md-offset-2 color">
+                               <h1>Tarifas</h1>
+                               <p>Consulta las tarifas LabCar aquí</p>
+                            </div>  
+                            <div class="col-xs-12 col-md-4 col-md-offset-1 color">
+                                <img src="assets/docs/circulo.png" alt="">
+                            </div>
+                            <div class="col-xs-12 col-md-4 col-md-offset-0 colores">
+                                <input type="text" placeholder="Ingrese su punto de partida">
+                            </div>
+                        </div>
+                        
+                            <div class="col-xs-12 col-md-4 col-md-offset-0 color1">
+                                <img src="assets/docs/flecha.png" alt="">
+                            </div>
+                            <div class="col-xs-12 col-md-4 col-md-offset-0 colores1">
+                                <input type="text" placeholder="Ingrese su destino">
+                            </div>
+                        </div>
+                </div>    
                     <div class="row">
-                        <div class="col-xs-12 col-md-4 col-md-offset-1" id="map">
+                        <div class="col-xs-12 col-md-1 col-md-offset-2" id="map">
 
                         </div>
-                    </div>
-                </div>
+                        <div class="col-xs-12 col-md-2 col-md-offset-1">
+                            <button id="encuentrame" class="text-center">Encuentrame</button>
+                        </div>
+                    </div>    
             </section>
         </div>
-    </div>
+    </div>    
+        
+   <!--  inicio de mi footer -->  
+   <footer class="footer">
+        <div class="">
+              <hr class="linia"> 
+        </div>
+         <div class="container2">
+             <div class="row">
+              <div class="col-xs-12 col-md-1 col-md-offset-2">
+                <ul>
+                    <li>Viaja</li>
+                    <li>Conduce</li>
+                    <li>Ciudades</li>
+                    <li>ciudades</li>
+                    <li>Entregas</li>
+                    <li>Cómo Funciona?</li>
+                    <li>países</li>
+                    <li>Seguridad</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-2 col-md-offset-1">
+                <ul>
+                    <li>Oportunidades</li>
+                    <li>Nuestra historia</li>
+                    <li>Api de LabCar</li>
+                    <li>Eventos</li>
+                    <li>Desarrolladores</li>
+                    <li>Servicios</li>
+                    <li>Laboratoria</li>
+                    <li>Coders</li>
+                </ul>
+            </div>  
+              <div class="col-xs-12 col-md-2 col-md-offset-1">
+                <div class="img2"><img src="assets/docs/app-store.png" alt="" width="180"></div>
+                <div class="img3"><img src="assets/docs/google-play.png" alt="" width="180"></div> 
+              </div>
+           </div>  
+         </div>
+<!-----------------inicio de iconos---------------->
+
+    </footer>     
+    
+    
   <script async defer
        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAdrr-pkX9KYdOW-BZVLKiJM7cOiG-110&callback=initMap">
     </script>
