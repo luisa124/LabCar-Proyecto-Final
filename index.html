@@ -4,173 +4,177 @@
     <meta charset="UTF-8">
     <title>LabCar</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/docs/favicon.ico">
 </head>
 <body>
-    <div class="contenedor">
-        <header>
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-             <div class="container-fluid">
-                <div class="navbar-header">
+  <section>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <div class="container">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>                        
                   </button>
-                  <a class="navbar-brand" href="#"><img src="assets/docs/logo.png" alt=""></a>
                 </div>
                 <div>
-                  <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-                    <ul class="nav navbar-nav">
+                 <a class="navbar-brand" href="#"><img src="assets/docs/logo.png" alt=""></a>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
                       <li><a href="#section1">Viaja</a></li>
                       <li><a href="#section2">Conduce</a></li>
                       <li><a href="#section3">inicia sesion</a></li>
                     </ul>
                   </div>
+               </div>
+            </div>
+         </div>
+       </nav>
+    </header>
+ </section>
+  
+<!------------------------ section de contactos --------------------->
+ <section class="hero-section fondo">
+     <div class="container">
+         <div class="row">
+            <div class="col-xs-12 col-md-4 col-md-offset-7 parrafos">
+                <div class="col-xs-12 col-md-0 col-md-offset-1">
+                 <h1>Disfruta del viaje</h1>
+                 <h1>Eres dueño de tu tiempo</h1>
+               </div>
+               <div class="col-xs-12 col-md-0 col-md-offset-1">
+                 <h3>Viaja con <img src="assets/docs/logo-blanco.png" alt=""></h3>
+                 <p>REGÍSTRATE</p>
+               </div>
+               <div class="col-xs-12 col-md-3 col-md-offset-1">
+                 <hr class="linia">
+               </div>
+               <div class="col-xs-12 col-md-3 col-md-offset-1">
+                   <p>O bien</p>
+               </div>
+               <div class="col-xs-12 col-md-3 col-md-offset-1">
+                   <hr class="linia">
+               </div>
+               <div class="col-xs-12 col-md-3 col-md-offset-1">
+                   <button type="button" class="btn btn-default">Conviértete en un conductor</button>
+               </div>
+            </div>
+         </div>     
+     </div>
+ </section> 
+ 
+<!------------------------ section de celular y textos ----------------------->   
+ <section class="section-celular">
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-xs-12 col-md-12 col-md-offset-0 caja-color">
+                 <div class="col-xs-12 col-md-1 col-md-offset-1">
+                     <img src="assets/docs/celular.png" alt="">
+                 </div>
+                 <div class="col-xs-12 col-md-4 col-md-offset-5">
+                    <h3>Descarga la nueva app</h3>
+                     <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+                     <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+                
+<!--------------------- section fondo conductor ----------------------->  
+ <section class="conductor">
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-xs-12 col-md-5 col-md-offset-8 fondo-oscuro">
+                 <h3>Conduce cuando quieras</h3>
+                 <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+                   <button type="button" class="btn btn-warning">Conviértete en conductor</button>
+             </div>
+         </div>
+     </div>
+ </section>   
+       
+<!---------------------------- section input y mapa ------------------------>  
+ <section class="input-mapa">
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-xs-12 col-md-1 col-md-offset-1 input">
+                 <div class="col-xs-12 col-md-9 col-md-offset-2">
+                     <h1>Tarifas</h1>
+                     <p>Consulta las tarifas LabCar aquí</p>
+                 </div>
+                 <div class="col-xs-12 col-md-0 col-md-offset-2 input1">
+                     <img src="assets/docs/circulo.png" alt="">
+                     <input type="text" placeholder="Ingrese su punto de partida">
+                 </div>
+                 <div class="col-xs-12 col-md-0 col-md-offset-2 input2">
+                     <img src="assets/docs/circulo.png" alt="">
+                     <input type="text" placeholder="Ingrese su punto de partida">
+                 </div>
+                 <div class="col-xs-12 col-md-0 col-md-offset-2">
+                    <button id="encuentrame" class="btn btn-default boton">¡TRAZAR RUTA!</button>
                 </div>
              </div>
-           </nav>
-        </header>
-        <div class="fondo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-12 col-md-offset-1">
-                        <h1>Disfruta del viaje</h1>
-                        <h1>Eres dueño de tu tiempo</h1>
-                    </div>
-                    <div class="col-xs-12 col-md-12 col-md-offset-1"><p>Viaja con </p><p>REGISTRATE</p></div>
-                    <div class="col-xs-12 col-md-3 col-md-offset-1"><input type="text"></div>
-                    <div class="col-xs-12 col-md-2 col-md-offset-1">
-                        <p>O bien</p>
-                    </div>
-                    <div class="col-xs-12 col-md-1 col-md-offset-1">
-                         <form class="w3-container">
-                          <input class="w3-input" type="text">
-                        </form>
-                    </div>
-                    <div class="col-xs-12 col-md-12 col-md-offset-1">
-                        <button type="button" class="btn btn-default">Conviértete en un conductor</button> 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- la parte del celular y textos -->
-        <div class="caja">
-            <div class="container1">
-                <div class="row1">
-                <div class="parrafo">
-                    <div class="col-xs-12 col-md-4 col-md-offset-1">
-                       <img src="assets/docs/celular.png" alt="">
-                    </div>
-                    <div class="col-xs-12 col-md-4 col-md-offset-1">
-                       <h1>Descarga la nueva app</h1>
-                        <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-                        <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    <!-- inicio de codigo imagen de taxi -->
-       <section>
-           <div class="myContainer">
-               <div class="row">
-                   <div class="col-xs-12 col-md-3 col-md-offset-9">
-                      <div class="fondo-oscuro">
-                          <h3>Conduce cuando quieras</h3>
-                          <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-                          <button type="button" class="btn btn-warning">Warning</button>
-                      </div>
-                   </div>
-               </div>
-           </div>
-       </section>   
-        
-    <!-- inicio de section de inputs y mapa-->    
-        <div class="mapa">
-            <section>
-                <div class="row">
-                    <div class="mapaInput">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-4 col-md-offset-2 color">
-                               <h1>Tarifas</h1>
-                               <p>Consulta las tarifas LabCar aquí</p>
-                            </div>  
-                            <div class="col-xs-12 col-md-4 col-md-offset-1 color">
-                                <img src="assets/docs/circulo.png" alt="">
-                            </div>
-                            <div class="col-xs-12 col-md-4 col-md-offset-0 colores">
-                                <input type="text" placeholder="Ingrese su punto de partida">
-                            </div>
-                        </div>
-                        
-                            <div class="col-xs-12 col-md-4 col-md-offset-0 color1">
-                                <img src="assets/docs/flecha.png" alt="">
-                            </div>
-                            <div class="col-xs-12 col-md-4 col-md-offset-0 colores1">
-                                <input type="text" placeholder="Ingrese su destino">
-                            </div>
-                        </div>
-                </div>    
-                    <div class="row">
-                        <div class="col-xs-12 col-md-1 col-md-offset-2" id="map">
-
-                        </div>
-                        <div class="col-xs-12 col-md-2 col-md-offset-1">
-                            <button id="encuentrame" class="text-center">Encuentrame</button>
-                        </div>
-                    </div>    
-            </section>
-        </div>
-    </div>    
-        
-   <!--  inicio de mi footer -->  
-   <footer class="footer">
-        <div class="">
-              <hr class="linia"> 
-        </div>
-         <div class="container2">
-             <div class="row">
-              <div class="col-xs-12 col-md-1 col-md-offset-2">
-                <ul>
-                    <li>Viaja</li>
-                    <li>Conduce</li>
-                    <li>Ciudades</li>
-                    <li>ciudades</li>
-                    <li>Entregas</li>
-                    <li>Cómo Funciona?</li>
-                    <li>países</li>
-                    <li>Seguridad</li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-md-2 col-md-offset-1">
-                <ul>
-                    <li>Oportunidades</li>
-                    <li>Nuestra historia</li>
-                    <li>Api de LabCar</li>
-                    <li>Eventos</li>
-                    <li>Desarrolladores</li>
-                    <li>Servicios</li>
-                    <li>Laboratoria</li>
-                    <li>Coders</li>
-                </ul>
-            </div>  
-              <div class="col-xs-12 col-md-2 col-md-offset-1">
-                <div class="img2"><img src="assets/docs/app-store.png" alt="" width="180"></div>
-                <div class="img3"><img src="assets/docs/google-play.png" alt="" width="180"></div> 
-              </div>
-           </div>  
+             <div class="col-xs-12 col-md-3 col-md-offset-1 input3">
+                     <div class="col-xs-12 col-md-3 col-md-offset-1" id="map"></div>
+             </div>
          </div>
-<!-----------------inicio de iconos---------------->
+     </div>
+ </section> 
 
-    </footer>     
-    
-    
-  <script async defer
-       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAdrr-pkX9KYdOW-BZVLKiJM7cOiG-110&callback=initMap">
-    </script>
+<!------------------------inicio de section de footer----------------------->                
+  <footer>
+      <section class="section-footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12 col-md-12 col-md-offset-0">
+                     <img src="assets/docs/logo-blanco.png" alt="">
+                      <hr class="linia">
+                  </div>
+                  <div class="col-xs-12 col-md-2 col-md-offset-0">
+                  <span class="glyphicon glyphicon-play"></span>
+                  
+                  </div>
+                  <div class="col-xs-12 col-md-1 col-md-offset-1">
+                    <p>Viaja</p>
+                    <p>Conduce</p>
+                    <p>Ciudades</p>
+                    <p>Ciudades</p>
+                    <p>Entregas</p>
+                    <p>Cómo funciona?</p>
+                    <p>Países</p>
+                    <p>Seguridad</p>
+                  </div>
+                  <div class="col-xs-12 col-md-1 col-md-offset-1">
+                    <p>Oportunidades</p>
+                    <p>Nuestra historia</p>
+                    <p>API de LabCar</p>
+                    <p>Eventos</p>
+                    <p>Desarrolladores</p>
+                    <p>Servicios</p>
+                    <p>Laboratoria</p>
+                    <p>Coders</p>
+                  </div>
+                  <div class="col-xs-12 col-md-2 col-md-offset-1">
+                  <img src="assets/docs/app-store.png" alt="">
+                  <img src="assets/docs/google-play.png" alt="">
+                  </div>
+                  <div class="col-xs-12 col-md-12 col-md-offset-0">
+                      <hr class="linia">
+                  </div>
+              </div>
+          </div>
+      </section>
+  </footer>                              
+                                                                      
+   <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAdrr-pkX9KYdOW-BZVLKiJM7cOiG-110&callback=initMap"></script>
    <script src="assets/js/jquery-3.2.1.min.js"></script> 
    <script src="assets/js/bootstrap.min.js"></script> 
    <script src="assets/js/app.js"></script> 
